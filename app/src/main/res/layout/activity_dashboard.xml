@@ -13,13 +13,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:layout_weight="1"
+            android:layout_weight="5"
             tools:srcCompat="@tools:sample/avatars" />
 
         <LinearLayout
@@ -69,13 +70,18 @@
             android:id="@+id/buttonCall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Call *363#" />
+            android:text="@string/button_reg_Call" />
 
         <Button
             android:id="@+id/buttonQuiz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Quiz" />
+            android:text="@string/button_reg_kuis" />
+        <Button
+            android:id="@+id/buttonLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_reg_lang" />
 
         <TextView
             android:id="@+id/tvResult"

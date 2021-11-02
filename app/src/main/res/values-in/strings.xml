@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FormApps</string>
+
+    <string name="form_tittle">Silahkan isi form regrestrasi berikut</string>
+    <string name="input_name_hint">Name Lengkap</string>
+    <string name="input_email_hint">Alamat Email</string>
+    <string name="input_phone_hint">Nomor Telepon</string>
+    <string name="input_password_hint">Kata Sandi</string>
+    <string name="button_reg_save">SIMPAN</string>
+    <string name="button_reg_lang">BAHASA</string>
+    <string name="button_reg_Call">Panggil *123#</string>
+    <string name="button_reg_kuis">Kuis</string>
+</resources>

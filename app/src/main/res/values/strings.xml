@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FormApps</string>
+
+    <string name="form_tittle">Fill the regristration form below</string>
+    <string name="input_name_hint">Full Name</string>
+    <string name="input_email_hint">Email Address</string>
+    <string name="input_phone_hint">Phone Number</string>
+    <string name="input_password_hint">Password</string>
+    <string name="button_reg_save">SAVE </string>
+    <string name="button_reg_lang">LANGUAGE</string>
+    <string name="button_reg_Call">Call *123#</string>
+    <string name="button_reg_kuis">Quiz</string>
+
 </resources>
